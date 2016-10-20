@@ -1,0 +1,114 @@
+GUI - graphical user interface
+
+Difference between JOption Pane,
+	One Pane vs Multiple
+	Multiple inputs
+
+JFC - Java foundation
+AWT and SWING
+======NEXT PAGE========
+
+
+AWT was first - Heavy weight
+bound to operating system
+bulky
+
+SWING
+light weight
+works exclusivly from JVM
+
+A window is a container
+======NEXT PAGE========
+
+JFrame class - JFrame object
+
+*IF you see a J: it comes from SWING
+
+import javax.swing.*; Prolly need to remeber this
+
+create an object
+JFrame window = new JFrame();
+======NEXT PAGE========
+
+instantiate
+window.setTitle("A Simple Window");
+manipulate the window
+window.setSize(width, height);
+
+window.setDefaultCloseOpertion(JFrame.EXIT_ON_CLOSE);
+
+window.setVisible(true);
+======NEXT PAGE========
+
+
+classes being inherited - Super Class
+classes that inherit - sub Class
+
+*using extends for adding content like overwriting constructors
+
+JLabel
+======NEXT PAGE========
+
+compont to display text
+title, width, height
+
+public JLabel(String s)
+public JLabel(String s, [swing constants left center right])
+
+JTextField
+======NEXT PAGE========
+
+private JTextField lengthTF, widthTF;
+set lenght, and width
+
+JButton calculateB
+==============================================
+Event Driven Programming
+==============================================
+======NEXT PAGE========
+
+Create an Event listener
+--> attached to an event generator
+------> follows its handles to execute code
+
+private class inside
+larger public class
+
+interface contain constants and method headers
+======NEXT PAGE========
+
+
+all event listeners must implement an interface
+
+private class ButtonHandler implements ActionListener{
+	
+	public void actionPerformed(ActionEvent e){
+		//Action
+======NEXT PAGE========
+
+	}
+}
+
+ButtonHandler cb = new ButtonHandler();
+cb.addActionListener(new actionPerformed())
+
+JPanel panel = new Panel()
+panel.setLayout(new FlowLayout())
+======NEXT PAGE========
+
+ Flow()
+ Flow(alignment)
+
+componets can be nested.... panels inside layouts
+
+checkboxes fire off item events
+
+radio buttons use action listeners
+======NEXT PAGE========
+
+radios should be grouped into ButtonGroups
+
+call doClick() for radio buttons to fire off events associated with radio buttons
+
+use + outside string.split([*&#]+ <--------) to treat multiple dilimiters as one
+======NEXT PAGE========

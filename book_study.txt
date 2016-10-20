@@ -1,0 +1,21 @@
+Study very carefully the definitions (concepts), the Checkpoint exercises, chapter-end Review Questions and Exercises, Short Answer items in the book.Particular focus should be given to:Chapter 6:- UML diagrams; writing code for a class - CLASS NAME | FIEL
+======NEXT PAGE========
+DS | METHODS- Instance fields and instance methods - Fields: varible names representing objects; If the method is not static it is an instance- Constructors - Empty Constructors; java provides when no constructor is given; all values = null, 0, false- Over
+======NEXT PAGE========
+loading methods and constructors - Increases flexibility to have more, only can overload parameters not return types- Scope of instance fields, shadowing - Shadowing, exact match of a varible name (aka int in constructor) will overshadow fields- Object ori
+======NEXT PAGE========
+ented design: from problem description to class definitions - Discription, list nouns (& pronouns), eliminate nounsChapter 7:- Array declaration and instantiation; the initializer list - {{1,2},{1,2},{1,2}}- Accessing and manipulating array elements - Summ
+======NEXT PAGE========
+ing and averaging array elements - array.length: rows, array[0].length: columns- Finding the max/min values and/or the max/min index in an array- Copying arrays- Passing to and returning arrays from methods- Searching arrays for a given target element- Str
+======NEXT PAGE========
+ing arrays and arrays of objectsChapter 8:- Instance fields and instance methods - belong to an instance or object of a method- Static class members - belongs to the class not an instance of the object if it exsists- Passing objects to methods - Passing a 
+======NEXT PAGE========
+reference, not a copy- Returning objects from methods - Passing a reference, not a copy- The purpose and implementation of the toString( ) method - Easy way to display object data in a presentable fashion- The purpose and implementation of the equals( ) me
+======NEXT PAGE========
+thod - Way to compare two object to check for identical fields- The purpose and benefit of copying objects - modifying copies will not alter the orginal data- Copy constructors - public Student (Student object2){ match fields name = object2.name}- Deep cop
+======NEXT PAGE========
+y and shallow copies - Deep copies copy information, shallow copies the address- Establish class collaboration: aggregation - Use diamonds with UML; using class objects within another class object- Garbage collection - JVM will periodically remove objects 
+======NEXT PAGE========
+not reference anymore. (Finialize will be executed before object is removed.- The null reference - best to do a no-args to combat this or verify before use- The use of the reserved word ‘this’ as a reference - used to reference the object field to prevent 
+======NEXT PAGE========
+overshadowing;
